@@ -1,0 +1,26 @@
+1. Why should we use functions at all ?
+Dùng functions để không phải repeat lại những giòng code giống nhau, và có thể sử dụng trên nhiều chương trình khác nhau mà không phải code lại. 
+
+2. How to define/declare a function ?
+cú pháp để declare a function là " def tên_function(tham số đầu vào nếu có): "
+
+3. How to call/use a function ?
+Để sử dụng function, chúng ta viết lại tên_function(tham số đầu vào nếu có): ".
+Nếu sử dụng function trên một chương trình khác, chúng ta cần import trước khi sử dụng
+
+4. What is return, Why and how do we use it ?
+Return là một giá trị mà một function trả lại. Chúng ta dùng return vì return mang lại sự thuận tiện mỗi khi chúng ta cần sử dụng 1 value nào đó trong function. 
+Chúng ta sử dụng = cách viết return trong function để trả về giá trị bạn muốn sử dụng và call a function để get giá trị đó
+
+5. Do we have to use return in every function ?
+Nope we dont. Phụ thuộc vào bạn có muốn sử dụng 1 giá trị nào đó trong function không
+
+6. What are function arguments/parameters, why and how we use it ?
+Function arguments là tham số đầu vào của một function. Sử dụng function arguments để chúng ta có thể thay đổi giá trị của các tham số để tính ra các giá trị yêu cầu. 
+Function arguments được sử dụng như sau: khi declare một function, chúng ta sẽ thêm các arguments trong dấu ngoặc tròn sau tên function và sử dụng chúng trong suốt quá trình
+chạy function
+
+7. How to use function from a different file other than our currently working file ?
+Để sử dụng from a different file, chúng ta cần import tên của function đó ( lưu ý là file function và currently working file cần nằm cùng 1 folder for easier import process )
+Có 2 cách import : from tên_function import * (các hàm cần thiết)
+                or import tên_function (trường hợp này cần gõ lại function mỗi khi gọi sử dụng 1 hàm)

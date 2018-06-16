@@ -1,19 +1,22 @@
 from random import choice
-
+# from eval import calc
+import eval
 x = choice(range(1,10))
 y = choice(range(1,10))
 ops = ["+", "-", "*", "/"]
-result = 0
+# result = 0
 op = choice(ops)
 
-if op == "+":
-    result = x + y
-elif op == "-":
-    result = x - y
-elif op == "*":
-    result = x * y
-elif op == "/":
-    result = x / y
+# if op == "+":
+#     result = x + y
+# elif op == "-":
+#     result = x - y
+# elif op == "*":
+#     result = x * y
+# elif op == "/":
+#     result = x / y
+
+result = eval.calc(x, y, op)
 
 errors = [-1, 0, 0, 1, 0, 0]
 error = choice(errors)
